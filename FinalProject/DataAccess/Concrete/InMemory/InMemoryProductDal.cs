@@ -13,7 +13,7 @@ namespace DataAccess.Concrete.InMemory
         List<Product> _products;
         public InMemoryProductDal()
         {
-            _products = new List<Product> { 
+            _products = new List<Product> {
                 new Product {ProductId = 1,CategoryId=1, ProductName="bardak",UnistInStock=15,UnitPrice=15},
                 new Product {ProductId = 2,CategoryId=2, ProductName="camera",UnistInStock=3,UnitPrice=500},
                 new Product {ProductId = 3,CategoryId=3, ProductName="telefon",UnistInStock=2,UnitPrice=1500},
@@ -29,6 +29,8 @@ namespace DataAccess.Concrete.InMemory
 
         public void Delete(Product product)
         {
+            Product productToDelete = _products.SingleOrDefault(p => p.ProductId == product.ProductId);
+            _products.Remove(productToDelete);
         }
 
         public List<Product> GetAll()
@@ -39,7 +41,15 @@ namespace DataAccess.Concrete.InMemory
         public void Update(Product product)
         {
             Product productToUpdate = _products.SingleOrDefault(p => p.ProductId == product.ProductId);
-            
+            productToUpdate.ProductName = product.ProductName;
+            productToUpdate.CategoryId = product.CategoryId;
+            productToUpdate.UnitPrice = product.UnitPrice;
+            productToUpdate.UnitsInStock = product.UnitsInStock;
+        }
+
+        public List<Product> GetAllByCategory(int categoryId);
+        {
+            return _products.Where(p=>p.CategoryId == categoryId)ToList();
         }
     }
 }
