@@ -1,27 +1,140 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ozbay\\Desktop\\finalProject\\FinalProject\\Business\\Business.csproj": {}
+    "/Users/ozbay/Desktop/finalProject/finalProject/FinalProject/Business/Business.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ozbay\\Desktop\\finalProject\\FinalProject\\Business\\Business.csproj": {
+    "/Users/ozbay/Desktop/finalProject/finalProject/FinalProject/Business/Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ozbay\\Desktop\\finalProject\\FinalProject\\Business\\Business.csproj",
+        "projectUniqueName": "/Users/ozbay/Desktop/finalProject/finalProject/FinalProject/Business/Business.csproj",
         "projectName": "Business",
-        "projectPath": "C:\\Users\\ozbay\\Desktop\\finalProject\\FinalProject\\Business\\Business.csproj",
-        "packagesPath": "C:\\Users\\ozbay\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ozbay\\Desktop\\finalProject\\FinalProject\\Business\\obj\\",
+        "projectPath": "/Users/ozbay/Desktop/finalProject/finalProject/FinalProject/Business/Business.csproj",
+        "packagesPath": "/Users/ozbay/.nuget/packages/",
+        "outputPath": "/Users/ozbay/Desktop/finalProject/finalProject/FinalProject/Business/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ozbay\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/ozbay/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/ozbay/Desktop/finalProject/finalProject/FinalProject/DataAccess/DataAccess.csproj": {
+                "projectPath": "/Users/ozbay/Desktop/finalProject/finalProject/FinalProject/DataAccess/DataAccess.csproj"
+              },
+              "/Users/ozbay/Desktop/finalProject/finalProject/FinalProject/Entities/Entities.csproj": {
+                "projectPath": "/Users/ozbay/Desktop/finalProject/finalProject/FinalProject/Entities/Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/6.0.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/ozbay/Desktop/finalProject/finalProject/FinalProject/DataAccess/DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ozbay/Desktop/finalProject/finalProject/FinalProject/DataAccess/DataAccess.csproj",
+        "projectName": "DataAccess",
+        "projectPath": "/Users/ozbay/Desktop/finalProject/finalProject/FinalProject/DataAccess/DataAccess.csproj",
+        "packagesPath": "/Users/ozbay/.nuget/packages/",
+        "outputPath": "/Users/ozbay/Desktop/finalProject/finalProject/FinalProject/DataAccess/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ozbay/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/ozbay/Desktop/finalProject/finalProject/FinalProject/Entities/Entities.csproj": {
+                "projectPath": "/Users/ozbay/Desktop/finalProject/finalProject/FinalProject/Entities/Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/6.0.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/ozbay/Desktop/finalProject/finalProject/FinalProject/Entities/Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ozbay/Desktop/finalProject/finalProject/FinalProject/Entities/Entities.csproj",
+        "projectName": "Entities",
+        "projectPath": "/Users/ozbay/Desktop/finalProject/finalProject/FinalProject/Entities/Entities.csproj",
+        "packagesPath": "/Users/ozbay/.nuget/packages/",
+        "outputPath": "/Users/ozbay/Desktop/finalProject/finalProject/FinalProject/Entities/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ozbay/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -54,7 +167,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/6.0.102/RuntimeIdentifierGraph.json"
         }
       }
     }

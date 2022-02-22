@@ -27,34 +27,32 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ozbay\\.nuget\\packages\\": {}
+    "/Users/ozbay/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ozbay\\Desktop\\finalProject\\FinalProject\\DataAccess\\DataAccess.csproj",
+      "projectUniqueName": "/Users/ozbay/Desktop/finalProject/finalProject/FinalProject/DataAccess/DataAccess.csproj",
       "projectName": "DataAccess",
-      "projectPath": "C:\\Users\\ozbay\\Desktop\\finalProject\\FinalProject\\DataAccess\\DataAccess.csproj",
-      "packagesPath": "C:\\Users\\ozbay\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ozbay\\Desktop\\finalProject\\FinalProject\\DataAccess\\obj\\",
+      "projectPath": "/Users/ozbay/Desktop/finalProject/finalProject/FinalProject/DataAccess/DataAccess.csproj",
+      "packagesPath": "/Users/ozbay/.nuget/packages/",
+      "outputPath": "/Users/ozbay/Desktop/finalProject/finalProject/FinalProject/DataAccess/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ozbay\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/ozbay/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\ozbay\\Desktop\\finalProject\\FinalProject\\Entities\\Entities.csproj": {
-              "projectPath": "C:\\Users\\ozbay\\Desktop\\finalProject\\FinalProject\\Entities\\Entities.csproj"
+            "/Users/ozbay/Desktop/finalProject/finalProject/FinalProject/Entities/Entities.csproj": {
+              "projectPath": "/Users/ozbay/Desktop/finalProject/finalProject/FinalProject/Entities/Entities.csproj"
             }
           }
         }
@@ -83,7 +81,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/6.0.102/RuntimeIdentifierGraph.json"
       }
     }
   }
