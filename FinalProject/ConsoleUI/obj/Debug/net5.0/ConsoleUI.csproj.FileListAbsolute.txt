@@ -1,0 +1,5 @@
+/Users/ozbay/Desktop/finalProject/finalProject/FinalProject/ConsoleUI/obj/Debug/net5.0/ConsoleUI.csproj.AssemblyReference.cache
+/Users/ozbay/Desktop/finalProject/finalProject/FinalProject/ConsoleUI/obj/Debug/net5.0/ConsoleUI.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ozbay/Desktop/finalProject/finalProject/FinalProject/ConsoleUI/obj/Debug/net5.0/ConsoleUI.AssemblyInfoInputs.cache
+/Users/ozbay/Desktop/finalProject/finalProject/FinalProject/ConsoleUI/obj/Debug/net5.0/ConsoleUI.AssemblyInfo.cs
+/Users/ozbay/Desktop/finalProject/finalProject/FinalProject/ConsoleUI/obj/Debug/net5.0/ConsoleUI.csproj.CoreCompileInputs.cache

@@ -1,27 +1,30 @@
-﻿<Properties StartupConfiguration="{0F0A36FA-9F40-46B6-8BB0-7FB0E3646E56}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="DataAccess/Concrete/InMemory/InMemoryProductDal.cs">
+﻿<Properties StartupConfiguration="{DDA277E1-850A-4727-8877-578755F8D7CE}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="DataAccess/Concrete/EntityFramework/EfProductDal.cs">
     <Files>
-      <File FileName="Business/Concrete/ProductManager.cs" Line="13" Column="10" />
-      <File FileName="DataAccess/Concrete/InMemory/InMemoryProductDal.cs" Line="11" Column="12" />
-      <File FileName="Entities/Concrete/Product.cs" />
-      <File FileName="DataAccess/Abstract/IProductDal.cs" />
-      <File FileName="ConsoleUI/Program.cs" Line="13" Column="10" />
+      <File FileName="DataAccess/Abstract/IEntityRepository.cs" Line="15" Column="2" />
+      <File FileName="Business/Concrete/ProductManager.cs" Line="23" Column="39" />
+      <File FileName="DataAccess/Abstract/IProductDal.cs" Line="12" Column="9" />
+      <File FileName="DataAccess/Abstract/ICategoryDal.cs" Line="11" Column="2" />
+      <File FileName="Entities/Concrete/Customer.cs" Line="14" Column="1" />
+      <File FileName="DataAccess/Abstract/ICustomerDal.cs" Line="8" Column="1" />
+      <File FileName="DataAccess/Concrete/InMemory/InMemoryProductDal.cs" Line="1" Column="1" />
+      <File FileName="DataAccess/Concrete/EntityFramework/EfCategoryDal.cs" Line="37" Column="1" />
+      <File FileName="DataAccess/Concrete/EntityFramework/EfProductDal.cs" Line="36" Column="2" />
+      <File FileName="Entities/Concrete/Product.cs" Line="1" Column="1" />
+      <File FileName="Entities/Concrete/Category.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="FinalProject" expanded="True">
             <Node name="Business" expanded="True">
-              <Node name="Abstract" expanded="True" />
               <Node name="Concrete" expanded="True" />
             </Node>
-            <Node name="ConsoleUI" expanded="True" />
+            <Node name="ConsoleUI" selected="True" />
             <Node name="DataAccess" expanded="True">
               <Node name="Abstract" expanded="True" />
               <Node name="Concrete" expanded="True">
-                <Node name="InMemory" expanded="True">
-                  <Node name="InMemoryProductDal.cs" selected="True" />
-                </Node>
+                <Node name="EntityFramework" expanded="True" />
               </Node>
             </Node>
             <Node name="Entities" expanded="True">
@@ -34,7 +37,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.ConsoleUI PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.ConsoleUI FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
