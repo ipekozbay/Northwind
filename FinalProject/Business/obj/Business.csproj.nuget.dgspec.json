@@ -104,6 +104,10 @@
             "Microsoft.SqlServer.SqlManagementObjects": {
               "target": "Package",
               "version": "[161.46521.71, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[6.0.4, )"
             }
           },
           "imports": [
