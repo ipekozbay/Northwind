@@ -1,28 +1,30 @@
-﻿<Properties StartupConfiguration="{DDA277E1-850A-4727-8877-578755F8D7CE}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="DataAccess/Concrete/EntityFramework/EfProductDal.cs">
+﻿<Properties>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Business/Concrete/ProductManager.cs">
     <Files>
       <File FileName="DataAccess/Abstract/IEntityRepository.cs" Line="5" Column="1" />
       <File FileName="DataAccess/Abstract/ICategoryDal.cs" />
-      <File FileName="DataAccess/Concrete/EntityFramework/EfProductDal.cs" Line="42" Column="10" />
+      <File FileName="DataAccess/Concrete/EntityFramework/EfProductDal.cs" Line="33" Column="20" />
       <File FileName="Entities/Abstract/IEntity.cs" />
       <File FileName="Entities/Concrete/Customer.cs" />
       <File FileName="DataAccess/Concrete/EntityFramework/EfCategoryDal.cs" />
-      <File FileName="Entities/Concrete/Product.cs" Line="19" Column="1" />
-      <File FileName="Business/Concrete/ProductManager.cs" />
-      <File FileName="DataAccess/Concrete/EntityFramework/NorthwindContext.cs" Line="20" Column="2" />
+      <File FileName="Entities/Concrete/Product.cs" />
+      <File FileName="Business/Concrete/ProductManager.cs" Line="19" Column="10" />
+      <File FileName="DataAccess/Concrete/EntityFramework/NorthwindContext.cs" />
+      <File FileName="Business/Abstract/IProductService.cs" Line="12" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="FinalProject" expanded="True">
             <Node name="Business" expanded="True">
-              <Node name="Concrete" expanded="True" />
+              <Node name="Abstract" expanded="True" />
+              <Node name="Concrete" expanded="True">
+                <Node name="ProductManager.cs" selected="True" />
+              </Node>
             </Node>
             <Node name="DataAccess" expanded="True">
               <Node name="Concrete" expanded="True">
-                <Node name="EntityFramework" expanded="True">
-                  <Node name="EfProductDal.cs" selected="True" />
-                </Node>
+                <Node name="EntityFramework" expanded="True" />
               </Node>
             </Node>
             <Node name="Entities" expanded="True">
@@ -36,7 +38,6 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.ConsoleUI FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
